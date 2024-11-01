@@ -8,15 +8,18 @@
   </head>
   <body>
     <main>
-      
+      <header>
+        <h1 id="imageID">N° 1</h1>
+        <a id="verPrompts" href="/listos">Ver Prompts</a>
+      </header>
     <div id="image-viewer">
-        <img src="https://picsum.photos/400" id="Image">
+        <img src="https://picsum.photos/400" id="image">
         <button id="left-button">&lt;</button>
         <button id="right-button">&gt;</button>
     </div>
     <form>
-      <input placeholder="Inserta tu prompt...">
-      <button>GUARDAR</button>
+      <input id="prompt-input" name="prompt" placeholder="Inserta tu prompt...">
+      <button type="submit"></button>
     </form>
     </main>
     <script type="module" src="/src/main.ts"></script>

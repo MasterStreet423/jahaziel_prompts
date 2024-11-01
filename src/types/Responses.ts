@@ -5,7 +5,7 @@ export interface Image {
 }
 
 export interface lastPrompted {
-  last: number;
+  id: number;
   prompt: string;
 }
 

@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th{
+    border: 1px solid black;
+    padding: 5px;
+    font-family: "Inter";
+    text-align: center;
+    background-color: #ff6f6f;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+    font-family: "Inter";
+    text-align: center;
+}
+/*intercalate gray and white*/
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#backButton{
+    width: 20%;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    position: relative;
+    display: inline-block;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 20% 100%, 0% 50%);
+    animation: resalt .5s infinite alternate;
+}
+
+#backButton:hover {
+    background-color: darkred;
+}
+#metalabLogo{
+    width: 30%;
+}
+#autonomaLogo{
+    width: 30%;
+}
+#logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+@keyframes resalt {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-10px);
+    }
+}
