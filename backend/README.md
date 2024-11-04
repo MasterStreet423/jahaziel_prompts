@@ -1,15 +1,26 @@
-# jahaziel_backend
+# PromptNifier
 
-To install dependencies:
+crear una carpeta images, en esta carpeta y luego insertar las imagenes, importante que las imagenes esten enumeradas del 1..N para tener un ID fijo
+
+EJ:
+- 1.png
+- 2.png
+- 3.png
+
+> PARA FACILITAR ESTE TRABAJO, PONER TODOS LOS ARCHIVOS EN LA CARPETA Y USAR POWERENAME, HERRAMIENTA DE POWERTOYS, DISPONIBLE EN LA MICROSOFT STORE
+
+bun se requiere instalado:
+[BUN](https://bun.sh/)
+
+se ingresa a la carpeta y se instalan las dependencias
 
 ```bash
 bun install
 ```
 
-To run:
+para correr el programa:
 
 ```bash
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.1.33. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
